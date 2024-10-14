@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: ;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  color: black;
+}
+nav h1 {
+  font-size: 2rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 1.5rem;
+}
+nav ul li a {
+  color: grey;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  font-size: 1.5rem;
+  color: black;
+}
+.body{
+  position: relative;
+  background: url("https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg?auto=compress&cs=tinysrgb&w=400")
+    no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-text {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.wine {
+  padding: 3rem 1rem;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.wine h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.wine p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.grid-item {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.body2 {
+  position: relative;
+  background: url("https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=400")
+    no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body2-text {
+  position: absolute;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+.upcoming button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background-color: #333;
+  color: yellow;
+  font-size: 1rem;
+}
+.upcomingbutton:hover {
+  padding: 1rem 1.9rem;
+  font-size: 1.5rem;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 1rem;
+  line-height: 2rem;
+  padding-left: 10rem;
+}
+.about h2 {
+  font-size: 2.5rem;
+}
+.about p {
+  width: 60%;
+  font-size: 1.1rem;
+}
+.book-tour {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 10rem;
+  /* padding-left: 10rem; */
+}
+.book-tour .left,
+.book-tour .right {
+  flex: 1;
+  padding: 1rem;
+}
+.flex {
+  display: flex;
+}
+.tour-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 2rem;
+  height: 100%;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tour-card button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 1rem;
+}
+.pre-footer {
+  background: url("https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?auto=compress&cs=tinysrgb&w=400")
+    no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.pre-footer-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+footer {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  padding: 1rem 0;
+}
+footer h2 {
+  margin-bottom: 1rem;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+footer ul li {
+  margin: 0 1rem;
+}
+footer ul li a {
+  color: black;
+  text-decoration: none;
+}
